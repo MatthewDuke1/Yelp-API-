@@ -14,8 +14,9 @@ const Business = {
     reviewCount: 90
 };
 
-const Business_component extends React.Component {
+const Business extends React.Component {
     render(){
+      const {business} =this.props;
     <div className="Business">
   <div className="image-container">
     <img src='https://s3.amazonaws.com/codecademy-content/programs/react/ravenous/pizza.jpg' alt=''/>
